@@ -2,6 +2,7 @@
   <q-page class="q-pa-md">
     <h1 class="text-h5">Detalji opažanja</h1>
     <p>Ovdje će biti prikaz pojedinog opažanja.</p>
+    <p>redosljed opažanja</p>
 
     <p>ID opažanja: {{ route.params.id }}</p>
   </q-page>

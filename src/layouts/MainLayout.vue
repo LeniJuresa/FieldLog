@@ -9,8 +9,7 @@
 
     <q-drawer v-model="drawer" show-if-above bordered>
       <q-list>
-        <q-item v-for="item in menu" :key="item.to"
-                clickable :to="item.to" exact>
+        <q-item v-for="item in menu" :key="item.to" clickable :to="item.to" exact>
           <q-item-section>{{ item.label }}</q-item-section>
         </q-item>
       </q-list>
@@ -32,9 +31,9 @@ const menu = [
   { label: 'Prijava', to: '/prijava' },
   { label: 'Registracija', to: '/registracija' },
   { label: 'Moja opažanja', to: '/opazanja' },
-  { label: 'Novo opažanje', to: '/novo-opazanje' },
   { label: 'Detalji opažanja', to: '/opazanje/1' },
   { label: 'Senzori', to: '/senzori' },
+  { label: 'Novo opažanje', to: '/novo-opazanje' },
   { label: 'Profil', to: '/profil' }
 ];
 </script>
